@@ -3,11 +3,11 @@ import praw
 def getComments(keyword):
     try:
         print('connecting to reddit')
-        reddit = praw.Reddit(client_id='q3QaT4d6ZktCWQ',
-                             client_secret='zTxmy-trje_SAB0ynFH0aiPBTns',
+        reddit = praw.Reddit(client_id='***********',
+                             client_secret='****************',
                              password='******',
                              user_agent='iBot',
-                             username='ramisaban1')
+                             username='*******')
         print('Jankins')
         subreddit=reddit.subreddit(keyword)
         for submission in subreddit.hot(limit=20):
