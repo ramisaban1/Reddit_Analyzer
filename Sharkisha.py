@@ -5,7 +5,7 @@ def getComments(keyword):
         print('connecting to reddit')
         reddit = praw.Reddit(client_id='q3QaT4d6ZktCWQ',
                              client_secret='zTxmy-trje_SAB0ynFH0aiPBTns',
-                             password='nobody12',
+                             password='******',
                              user_agent='iBot',
                              username='ramisaban1')
         print('Jankins')
